@@ -1,0 +1,61 @@
+
+html,body,.container {
+	height: 100%;
+}
+
+body {
+	background: white;
+	overflow: hidden;
+	background-image: linear-gradient(to bottom, #1990e1, #0d0d4b 30%,#c76075 80%, #e9b64b 95%);\
+
+	background-image: radial-gradient(circle at center bottom, #e9b64b, #c76875 15%, #0d0d4b 75%, #190e14 98%);
+}
+
+div#beach,canvas#canvas{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+div#beach {
+   background-image: url(http://https/dl.dropbox.com/s/oe0oce2udq44bj5/beachesil2.png);
+
+   background-position: bottom right;
+   background-size: 1700px;
+   background-repeat: no-repeat;
+}
+
+div#song {
+   position: absolute;
+   right: 243px;
+   bottom: 120px;
+}
+
+div#song iframe {
+	width: 200px;
+	height: 100px;
+}
+#birthdayparty {
+	position: absolute;
+	bottom right: : 65px;
+	left:500px;
+	width: 700px;
+}
+
+.giftbox {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	left: 50%;
+	margin-left: 150px;
+	bottom: 40px;
+	z-index: 10;
+}
+
+.giftbox > div{
+	background: #34495e;
+	position: absolute;
+}
+
